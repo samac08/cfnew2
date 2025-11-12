@@ -21,8 +21,8 @@ jobs:
   sync-releases:
     runs-on: ubuntu-latest
     env:
-      UPSTREAM_OWNER: wya0
-      UPSTREAM_REPO: Selene
+      UPSTREAM_OWNER: byJoey
+      UPSTREAM_REPO: cfnew
       PER_PAGE: "100"
     steps:
       - name: Checkout repo (needed for GitHub context)
